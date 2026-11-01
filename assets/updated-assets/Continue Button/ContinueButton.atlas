@@ -1,0 +1,15 @@
+ContinueButton.png
+size:540,787
+filter:Linear,Linear
+pma:true
+button
+bounds:2,46,560,245
+rotate:90
+glint
+bounds:2,608,177,465
+offsets:22,0,220,465
+rotate:90
+shadow
+bounds:249,2,604,289
+offsets:18,18,640,325
+rotate:90

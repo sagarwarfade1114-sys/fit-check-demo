@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>boot harness</title>
+    <link
+      rel="preload"
+      href="/assets/updated-assets/fonts/JungleAdventurer.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/assets/updated-assets/fonts/Lato-Regular.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Rajdhani:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/index.css" />
+    <link rel="stylesheet" href="/src/ui/boot.css" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="game-viewport">
+      <div class="game-stage game-stage--landscape">
+        <div class="boot-screen boot-screen--loading">
+          <div
+            class="boot-loading-bg"
+            style="background-image: url('/assets/updated-assets/loading-screen/cyberpunk_cityscape_neon_frame.jpg')"
+          ></div>
+          <img
+            class="boot-loading-girl"
+            src="/assets/updated-assets/loading-screen/cyber_girl_cut.png"
+            alt=""
+          />
+          <img
+            class="boot-loading-title"
+            src="/assets/updated-assets/Fit-check/fit_check_logo.png"
+            alt=""
+          />
+          <div class="boot-loading">
+            <p class="boot-loading-label">BOOTING SYSTEM...</p>
+            <div class="boot-bar">
+              <div class="boot-bar-track">
+                <img
+                  class="boot-bar-fill"
+                  src="/assets/updated-assets/loading-screen/loading_filler_cut.png"
+                  alt=""
+                  style="clip-path: inset(0 38% 0 0)"
+                />
+                <img
+                  class="boot-bar-frame"
+                  src="/assets/updated-assets/loading-screen/loading_frame_cut2.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <p class="boot-pct">62%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

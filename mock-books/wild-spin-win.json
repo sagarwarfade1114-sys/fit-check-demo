@@ -1,0 +1,52 @@
+{
+  "id": 302,
+  "payoutMultiplier": 50,
+  "events": [
+    {
+      "index": 0,
+      "type": "reveal",
+      "board": [
+        [{"name": "L4"}, {"name": "L4"}, {"name": "H1"}, {"name": "L3"}, {"name": "L3"}],
+        [{"name": "L4"}, {"name": "L2"}, {"name": "H1"}, {"name": "L3"}, {"name": "L3"}],
+        [{"name": "L2"}, {"name": "L2"}, {"name": "W", "wild": true, "multiplier": 5}, {"name": "L3"}, {"name": "L3"}],
+        [{"name": "H5"}, {"name": "L2"}, {"name": "H1"}, {"name": "L4"}, {"name": "L4"}],
+        [{"name": "H5"}, {"name": "H5"}, {"name": "H1"}, {"name": "L4"}, {"name": "L4"}]
+      ],
+      "paddingPositions": [12, 88, 44, 66, 21],
+      "gameType": "basegame",
+      "anticipation": [0, 0, 0, 0, 0]
+    },
+    {
+      "index": 1,
+      "type": "towerExpand",
+      "reel": 2,
+      "row": 1,
+      "mult": 5
+    },
+    {
+      "index": 2,
+      "type": "winInfo",
+      "totalWin": 5000,
+      "wins": [
+        {
+          "symbol": "H1",
+          "kind": 5,
+          "win": 5000,
+          "positions": [
+            {"reel": 0, "row": 2},
+            {"reel": 1, "row": 2},
+            {"reel": 2, "row": 2},
+            {"reel": 3, "row": 2},
+            {"reel": 4, "row": 2}
+          ]
+        }
+      ]
+    },
+    {"index": 3, "type": "setWin", "amount": 5000},
+    {"index": 4, "type": "setTotalWin", "amount": 5000},
+    {"index": 5, "type": "finalWin", "amount": 5000}
+  ],
+  "criteria": "wild-spin",
+  "baseGameWins": 50.0,
+  "freeGameWins": 0.0
+}

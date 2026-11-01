@@ -1,0 +1,12 @@
+right_rack.png
+size:782,279
+filter:Linear,Linear
+pma:true
+RS_beg
+bounds:570,106,171,210
+rotate:90
+RS_cap
+bounds:570,2,171,102
+RS_right_shelf
+bounds:2,18,566,259
+offsets:0,0,570,259

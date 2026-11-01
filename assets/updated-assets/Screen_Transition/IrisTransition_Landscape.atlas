@@ -1,0 +1,8 @@
+IrisTransition_Landscape.png
+size:2048,2048
+filter:Linear,Linear
+pma:false
+felt
+bounds:2,2,1920,1080
+ring
+bounds:2,1084,960,48
